@@ -21,7 +21,7 @@ p{
 }
 
 .input-data{
-    width: 175%;
+    width: 170%;
     padding: 5px;
     border-color: rgb(88, 235, 198);
     border-radius: 5px;
@@ -33,12 +33,13 @@ p{
     padding: 5px;
     border-color: rgb(116, 255, 255);
     border-radius: 10px;
-    border-width: 3px;
+    border-width: 4px;
 }
 
 .NamaPerusahaan{
     background-color: rgb(33, 34, 28);
-    font-size: 25px;
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 .tombol{
@@ -49,6 +50,15 @@ p{
     background-color: rgb(93, 94, 93);
 }
 
-.btn{
-    background-color:rgb(33, 34, 28) ;
+.tombol:hover{
+    background: chocolate;
 }
+
+.tombol:active{
+    background: green;
+}
+
+.box1{
+    padding-left: 20px;
+    padding-right: 5px;
+}  
