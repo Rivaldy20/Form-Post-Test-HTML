@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran</title>
+    <link rel="stylesheet" href="formstyle.css">
+</head>
+<body>
+    <p align="center" class="NamaPerusahaan"> <strong>PT. EXCELLENT</strong><br>
+        Jl. Kembang Permai II Blok I 5 No.6<br>
+        Puri Indah, Jakarta Barat 11610<br>
+        021-93397876,5805352<br>
+        Fax : 021-5805352, E-mail : excellent@cbn.net.id<br>
+    </p>
+    <hr>
+    <br>
+
+    <h3 align="center">
+        <u>FORMULIR PENDAFTARAN</u>
+    </h3>
+
+    <br>
+    <p><strong>I. KETERANGAN PRIBADI </strong></p>
+    <table style="white-space: pre;">
+        <tr>
+            <td>
+              <label for="NamaLengkap">01. Nama Lengkap</label>
+            </td>
+            <td>:</td>
+            <td>
+                <input type="text" name="NamaLengkap" id="NamaLengkap" class="input-data"/>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+              <label for="NamaPanggilan">02. Nama Panggilan</label>
+            </td>
+            <td>:</td>
+            <td>
+                <input type="text" name="NamaPanggilan" id="NamaPanggilan" class="input-data"/>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="JenisKelamin">03. Jenis Kelamin</label>
+            </td>
+            <td>:</td>
+            <td>
+                <input type="radio" name="JenisKelamin" id="JenisKelaminL" />
+                <label for="JenisKelaminL">Laki-Laki</label> 
+
+                <input type="radio" name="JenisKelamin" id="JenisKelaminP" />
+                <label for="JenisKelaminP">Perempuan</label>
+            </td>
+          </tr>
+        
+        <tr>
+            <td>
+              <label for="TempatLahir">04. Tempat Lahir</label>
+            </td>
+            <td>:</td>
+            <td>
+                <input type="text" name="TempatLahir" id="TempatLahir" class="input-data"/>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+              <label for="TanggalLahir">05. Tanggal Lahir</label>
+            </td>
+            <td>:</td>
+            <td>
+                <input type="text" name="TanggalLahir" id="TanggalLahir" class="input-data"/>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+              <label for="Agama">06. Agama</label>
+            </td>
+            <td>:</td>
+            <td>
+                <select name="Agama" id="Agama">
+                    <option>Agama</option>
+                    <option>Islam</option>
+                    <option>Katholik</option>
+                    <option>Kristen</option>
+                    <option>Buddha</option>
+                    <option>Hindu</option>
+                </select>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+              <label for="Kewarganegaraan">07. Kewarganegaraan</label>
+            </td>
+            <td>:</td>
+            <td>
+                <input type="text" name="Kewarganegaraan" id="Kewarganegaraan" class="input-data"/>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+              <label for="Anakke">08. Anak ke</label>
+            </td>
+            <td>:</td>
+            <td>
+                <input type="text" name="Anakke" id="Anakke" class="input-data"/>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+              <label for="JumlahSaudara">09. Jumlah Saudara</label>
+            </td>
+            <td>:</td>
+            <td>
+                <input type="text" name="JumlahSaudara" id="JumlahSaudara" class="input-data"/>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+              <label for="Status">10. Status</label>
+            </td>
+            <td>:</td>
+            <td>
+                <input type="radio" name="Status" id="Status1" />
+                <label for="JenisKelaminL">Menikah</label>
+    
+                <input type="radio" name="Status" id="Status2" />
+                <label for="JenisKelaminP">Belum Menikah</label>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+              <label for="JenisSIM">11. Jenis SIM</label>
+            </td>
+            <td>:</td>
+            <td>
+                <input type="text" name="JenisSIM" id="JenisSIM" class="input-data"/>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+              <label for="PasPhoto">12. Upload Pas Photo</label>
+            </td>
+            <td>:</td>
+            <td>
+                <input type="file" value="PasPhoto" class="input-data"/>
+            </td>
+        </tr>       
+    </table>
+    <br>
+    <p><strong>II. KETERANGAN TEMPAT TINGGAL</strong></p>
+
+    <table style="white-space: pre;">
+        <tr>
+            <td>
+              <label for="AlamatLengkap">01. Alamat Lengkap</label>
+            </td>
+            <td>:</td>
+            <td>
+                <textarea name="AlamatLengkap" id="AlamatLengkap" cols="25" rows="8" class="input-textarea"></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+              <label for="NoKTP">02. No. KTP</label>
+            </td>
+            <td>:</td>
+            <td>
+                <input type="text" name="NoKTP" id="NoKTP" class="input-data"/>
+            </td>
+        </tr>      
+
+        <tr>
+            <td>
+              <label for="NoTelp">03. No. Telepon / HP</label>
+            </td>
+            <td>:</td>
+            <td>
+                <input type="text" name="NoTelp" id="NoTelp" class="input-data"/>
+            </td>
+        </tr>      
+
+        <tr>
+            <td>
+              <label for="AlamatLain">04. Alamat Lain yang aktif</label>
+            </td>
+            <td>:</td>
+            <td>
+                <textarea name="AlamatLain" id="AlamatLain" cols="25" rows="8" class="input-textarea"></textarea>
+            </td>
+        </tr>      
+
+        <tr>
+            <td>
+              <label for="NoTelpLain">05. No. Telepon / HP Lain</label>
+            </td>
+            <td>:</td>
+            <td>
+                <input type="text" name="NoTelpLain" id="NoTelpLain" class="input-data"/>
+            </td>
+        </tr>      
+    </table>
+    
+    <p align="center" class="btn">
+        <input type="submit" value="Submit" class="tombolsubmit">    
+        <input type="reset" value="Reset" class="tombolsubmit">
+    </p>  
+</body>
+</html>

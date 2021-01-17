@@ -1,0 +1,54 @@
+body {
+    background-color:rgb(33, 34, 28);
+}
+
+h3{
+    background-color: rgb(33, 34, 28);
+    color:rgb(246, 250, 245);
+    font-size: 22px;
+}
+
+td{
+    color: rgb(246, 250, 245);
+    font-style: oblique;
+}
+
+p{
+    background-color: rgb(65, 75, 85);
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.input-data{
+    width: 175%;
+    padding: 5px;
+    border-color: rgb(88, 235, 198);
+    border-radius: 5px;
+    border-width: 3px;
+}
+
+.input-textarea{
+    width: 100%;
+    padding: 5px;
+    border-color: rgb(116, 255, 255);
+    border-radius: 10px;
+    border-width: 3px;
+}
+
+.NamaPerusahaan{
+    background-color: rgb(33, 34, 28);
+    font-size: 25px;
+}
+
+.tombolsubmit{
+    padding: 10px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: rgb(93, 94, 93);
+}
+
+.btn{
+    background-color:rgb(33, 34, 28) ;
+}
